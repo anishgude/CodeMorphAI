@@ -1,0 +1,14 @@
+{
+  "last_updated": "2026-03-16",
+  "benchmark_cases": 12,
+  "language_pairs_covered": 5,
+  "overall_success_rate_percent": 42,
+  "average_validation_score": 86,
+  "average_confidence_index": 80,
+  "average_runtime_seconds": 1.56,
+  "notes": [
+    "Success rate is based on cases marked Pass in the seeded benchmark dataset.",
+    "Review and Warning rows are intentionally retained to reflect realistic migration uncertainty.",
+    "These artifacts mirror the lightweight benchmark layer surfaced in the frontend /benchmark route."
+  ]
+}

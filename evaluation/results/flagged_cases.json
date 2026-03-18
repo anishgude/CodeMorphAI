@@ -1,0 +1,26 @@
+[
+  {
+    "case_name": "Edge-case parser",
+    "language_pair": "Java -> Python",
+    "validation_score": 74,
+    "confidence": "Low",
+    "status": "Warning",
+    "review_note": "Exception-path handling and token boundary logic show likely semantic risk."
+  },
+  {
+    "case_name": "File parsing routine",
+    "language_pair": "C++ -> Python",
+    "validation_score": 79,
+    "confidence": "Low",
+    "status": "Warning",
+    "review_note": "Resource handling translated, but stream-state edge cases remain uncertain."
+  },
+  {
+    "case_name": "Collection normalizer",
+    "language_pair": "Python -> Go",
+    "validation_score": 81,
+    "confidence": "Medium",
+    "status": "Review",
+    "review_note": "Map ordering assumptions and default values deserve targeted regression checks."
+  }
+]
