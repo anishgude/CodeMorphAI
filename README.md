@@ -2,6 +2,8 @@
 
 CodeMorph AI is an architecture-aware code migration platform that translates legacy code across programming languages while preserving semantics, control flow, and system structure.
 
+![CodeMorph AI landing page hero](docs/screenshots/landing-page-hero.png)
+
 ## Overview
 
 Modern engineering teams inherit large codebases that outlive the language, framework, or runtime decisions they were originally built on. Migrating those systems is expensive because syntax translation alone is not enough: behavior, edge cases, structural intent, and architectural boundaries all need to survive the move.
