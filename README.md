@@ -281,14 +281,36 @@ cmd /c npm run test
 
 ## Screenshots / Demo
 
-Screenshot placeholders are included in `docs/screenshots/`.
+The repository is set up to display screenshots from `docs/screenshots/`.
 
-Recommended assets to add before publishing:
+### Landing Page
 
-- landing page hero
-- migration dashboard with source/target diff
-- benchmark page
-- architecture page
+Hero overview and capability section.
+
+![CodeMorph AI landing page hero](docs/screenshots/landing-page-hero.png)
+![CodeMorph AI landing page capabilities](docs/screenshots/landing-page-capabilities.png)
+
+### Migration Dashboard
+
+Dashboard overview, editor workspace, and generated artifact review.
+
+![CodeMorph AI dashboard overview](docs/screenshots/dashboard-overview.png)
+![CodeMorph AI dashboard editors](docs/screenshots/dashboard-editors.png)
+![CodeMorph AI dashboard artifact view](docs/screenshots/dashboard-artifact-view.png)
+
+### Benchmark / Evaluation
+
+System-level benchmark metrics, performance visualizations, and flagged review cases.
+
+![CodeMorph AI benchmark overview](docs/screenshots/benchmark-overview.png)
+![CodeMorph AI benchmark performance](docs/screenshots/benchmark-performance.png)
+![CodeMorph AI benchmark review-cases](docs/screenshots/benchmark-review-cases.png)
+
+### Architecture Page
+
+Pipeline stages and platform design overview.
+
+![CodeMorph AI architecture page](docs/screenshots/architecture-page.png)
 
 ## Future Improvements
 
@@ -304,4 +326,3 @@ Recommended assets to add before publishing:
 - [Architecture notes](docs/architecture.md)
 - [API documentation](docs/api.md)
 - [Evaluation methodology](docs/evaluation.md)
-
